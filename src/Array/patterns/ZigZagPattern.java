@@ -1,4 +1,4 @@
-package Array.Basics.patterns;
+package Array.patterns;
 
 public class ZigZagPattern {
     public static void main(String[] args) {
