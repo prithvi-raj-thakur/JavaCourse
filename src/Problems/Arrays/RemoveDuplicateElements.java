@@ -14,8 +14,8 @@ public class RemoveDuplicateElements {
             arr[i]= sc.nextInt();
         }
         System.out.println("the array after removing duplicate elements : ");
-        RemoveDuplicate(arr);
-        for (int i = 0; i < arr.length ; i++) {
+        int newLength = RemoveDuplicate(arr);
+        for (int i = 0; i < newLength ; i++) {
             System.out.print(arr[i]+" ");
         }
         sc.close();
