@@ -47,6 +47,7 @@ public class UnionOfArrays {
         for (int i = 0; i < n2; i++) {
             b[i] = sc.nextInt();
         }
+        System.out.println("the union is : ");
         Union(a,b);
         sc.close();
     }
