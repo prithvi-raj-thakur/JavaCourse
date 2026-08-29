@@ -1,6 +1,6 @@
 package Problems.Arrays;
 
-public class Kadane {
+public class KadaneAlgorithm {
 
     public static int maxSubArray(int[] arr) {
         int currentSum = arr[0];
