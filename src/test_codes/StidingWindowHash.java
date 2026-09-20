@@ -2,7 +2,7 @@ package test_codes;
 
 import java.util.*;
 
-public class SlidingWindowHash {
+class SlidingWindowHash {
     public static void main(String[] args) {
 
         int[] arr = {1, 2, 1, 2, 3};
